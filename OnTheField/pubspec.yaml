@@ -1,0 +1,11 @@
+name: OnTheField
+version: 1.0.0
+author: Albert Murciego Rico
+description: Game that I did for LD31
+homepage: https://github.com/redoxkun/ld31
+environment:
+  sdk: '>=1.8.0 <2.0.0'
+dependencies:
+  browser: any
+  krentileLD31:
+    path: ../krentileLD31

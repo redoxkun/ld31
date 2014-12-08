@@ -1,0 +1,43 @@
+body {
+  background-color: #383844;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+  text-align: center;
+}
+
+h1, p {
+  color: #EEE;
+  text-align: center;
+}
+
+#loading-tag {
+  position: absolute;
+  font-size: 18px;
+  top: 220px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#container {
+  position: relative;
+  width: 960px;
+  height: 600px;
+  position: relative;
+  border: 0px solid #ccc;
+  background-color: #282834;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#webgl-canvas {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 960px;
+  height: 600px;
+}
